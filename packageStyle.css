@@ -1,0 +1,53 @@
+.packages
+{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.package
+{
+    text-align: center;
+    border:1px solid black;
+    padding: 30px;
+    width:400px;
+
+    background-color: rgb(182, 222, 202);
+
+}
+
+.buy-button
+{
+    background-color: red;
+    color: white;
+    padding:10px 30px;
+    border:none;
+    cursor:pointer;
+} 
+
+.package .image-placeholder
+{
+    width:80%;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 6px 7px 8px rgba(9, 33, 14, 0.5);
+}
+
+.buy-button:hover
+{
+    background-color: rgb(220, 9, 9);
+
+}
+
+.discription{
+    text-align: left;
+    font-size: 20px;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}

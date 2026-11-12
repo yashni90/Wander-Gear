@@ -1,0 +1,112 @@
+body{
+  background-color: #f0f8f5;
+}
+
+
+.checked {
+    color: orange;
+  }
+  .star{
+      display: flex;
+      margin-left:18px;
+      height: 25px;
+      font-size:2em;
+      
+      display:flex;
+      padding:10px;
+  }
+  .fa-star{
+  
+      margin-right:10px;
+  }
+  .fa-star:last-child {
+        margin-right: 2px; /* Remove margin for the last star */
+      }
+  .theme{
+      font-size:40px;
+      margin-left:10px;
+  }
+  .form {
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items:center; /* Center vertically */
+        height: 100vh; 
+        background: transparent;/* Full height of the viewport */
+         /* Optional: background color */
+      }
+       form { 
+        width: 60%;
+        padding: 20px;
+        background: transparent;
+        background-color: #04AA6D; /* Form background color */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      } 
+  
+      label {
+        margin-top: 5px; /* Space between labels */
+        display: block; /* Make labels block elements */
+        font-size:20px;
+      }
+  
+      input[type="text"] {
+        width: 100%; /* Make input take full width */
+        padding: 10px; /* Add padding inside input */
+        margin: 8px 0; /* Space above and below input */
+        border: 1px solid #5b5858; /* Border style */
+        border-radius: 4px; /* Rounded corners */
+        box-sizing: border-box; /* Ensure padding is included in width */
+      }
+  #subject{
+      width:100%;
+  }
+
+  .buttons
+  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .button {
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: rgb(17, 149, 201); 
+    border-radius: 10px;
+    color: rgb(228, 226, 226); 
+    border-style: none;
+  }
+  .button1:hover {
+    color: white;
+    background-color: rgb(12, 111, 145);
+  }
+  
+  .button3 {
+    background-color: rgb(225, 50, 70); 
+    border-radius: 10px;
+    color: rgb(228, 226, 226); 
+    border-style: none;
+  }
+  
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  #message{
+
+    width: 100%;
+    height:100px;
+
+
+  }

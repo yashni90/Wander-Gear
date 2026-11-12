@@ -1,0 +1,46 @@
+main{
+    font-family: Arial,sans-serif;
+    margin:0;
+    padding:10px;
+
+
+}
+
+.about-section{
+    max-width: 1000px;
+    margin:50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color:rgb(52, 141, 66);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 2;
+}
+
+.about-section h2{
+    font-size: 40px;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section p{
+    font-size:20px ;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button
+{
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(67, 182, 239);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="condition.css"/>
+    <script src="condition.js"></script>
+    <title>Document</title>
+    <style>
+        footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+		<div class="container">
+			<div class="logo">
+				<img src="Logo.png" alt="Logo"> <!-- Replace with actual logo path -->
+			</div>
+			<nav>
+				<ul>
+					<button class="zoom-button" onclick="goToPage1()">Home</button>
+					<button class="zoom-button" onclick="goToPage2()">Booking Now</button>
+					<button class="zoom-button" onclick="goToPage3()">Packages</button>
+					<button class="zoom-button" onclick="goToPage4()">Gallery</button>
+					<button class="zoom-button" onclick="goToPage5()">Contact</button>
+				</ul>
+			</nav>
+			<div class="user-icon">
+				<a href="login.php">
+					<img src="log in.png" alt="User profile">
+				</a>
+			</div>
+		</div>
+	</header>
+
+            <div class="content">
+                <hr>
+                <h1 class="one">Terms & Conditions</h1>
+                <ul id="content">
+                    <li>Require ments for registering an account</li> 
+                    <br>
+                    <li>Limitations on the number of bookings  items a user can make.</li>
+                    <br>
+                    <li>Accepted methods of payment (credit card,debit card,PayPal, etc.).</li>
+                    <br>
+                    <li>Whether a deposit or full payment is need at the time of booking</li>
+                    <br>
+                    <li>Conditions under which users can cancel a booking or renting.</li>
+                    <br>
+                    <li>Guidelines for resource pick-up and drop-off times.</li>
+                    <br>
+                    <li>Information on data sharing with third parties (e.g., payment processors).</li>
+                    <br>
+                    <li>Timeframes for reservation, such as maximum or minimum lead time before a reservation.</li>
+                    <br>
+                    <li>Information on any taxes, fees, or service charges.</li>
+                    <br>
+                    <li>Cutomer responsibility for maintaining the resource in its original condition.</li> 
+                    <br>
+                    <li>Before purchasing any items on this site, customers should review the changes.</li>
+                    <br>
+                    <li>Customers cannot rent this item again.</li>
+                    <br>
+                    <li>Any employees working on this site are not allowed to share information about the platform with outsiders</li>
+                    <br>
+                    <li>You cannot pay using the cash on delivery method.</li>
+                    <br>
+                    <li>If you want to buy or book items, you need to sign up the website</li>
+                    <br>
+                </ul>
+            </div>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-section about">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="about us.php">About Us</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section faq">
+                        <h3>FAQ</h3>
+                        <ul>
+                            <li><a href="FAQ.php">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section policy">
+                        <h3>Policy</h3>
+                        <ul>
+                            <li><a href="condition.html">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>&copy; 2024 Website. All rights reserved.</p>
+            </footer>
+</body>
+</html>

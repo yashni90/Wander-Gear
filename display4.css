@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+th, td{
+    padding: 10px;
+    width: 250px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+button{
+    padding: 5px;
+    background-color: rgb(48, 186, 210);
+    border-radius: 10px;
+    width: 80px;
+    margin-top: 5px;
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button2
+{
+    background-color: red;
+}
+
+.button3{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    
+}
+
+.button3 a{
+    color: black;
+}
